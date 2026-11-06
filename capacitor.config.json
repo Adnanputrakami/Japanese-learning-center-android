@@ -1,0 +1,9 @@
+{
+  "appId": "com.jlc.learning",
+  "appName": "Japanese Learning Center",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false
+  }
+}

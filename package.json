@@ -1,0 +1,18 @@
+{
+  "name": "japanese-learning-center-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Japanese Learning Center offline Android wrapper",
+  "scripts": {
+    "android:prepare": "npx cap add android && npx cap sync android",
+    "android:sync": "npx cap sync android",
+    "android:apk": "npx cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
